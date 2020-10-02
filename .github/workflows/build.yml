@@ -16,7 +16,7 @@ jobs:
 
 
       - name: Build with Gradle
-        run: gradle assembleDebug
+        run: ./gradlew build
 
 
 
