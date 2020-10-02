@@ -20,9 +20,13 @@ jobs:
 #
 ##       - name: Run Tests
 ##         run: ./gradlew test
+      - name: Make gradlew executable
+          run: chmod +x ./gradlew
+            - name: Build with Gradle
+              run: ./gradlew build
 #
-       - name: Build Project
-         run: ./gradlew assemble
+#       - name: Build Project
+#         run: ./gradlew assemble
 #
 #       - name: Build the app
 #         run: ./gradlew build
