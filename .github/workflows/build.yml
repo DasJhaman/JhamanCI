@@ -14,7 +14,8 @@ jobs:
           architecture: x64
 
       - name: Build debug APK
-        run:  ./gradlew assembleDebug --stacktrace
+         run: gradle build
+#        run:  ./gradlew assembleDebug --stacktrace
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
