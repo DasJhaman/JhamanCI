@@ -15,13 +15,5 @@ jobs:
       with:
         java-version: 1.8
 
-
-#          - name: Run Tests
-#            run: ./gradlew test
-#
-#          - name: Build Project
-#              run: ./gradlew assemble
-
-
-        - name: Build the app
-          run: ./gradlew build
+          - name: Build the app
+              run: ./gradlew build
